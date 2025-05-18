@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 body {
-    background-color: #f8f9fa;
-    color: #333;
+    background-color: #C3E9FF;
+    color: #021124;
     line-height: 1.6;
 }
 
@@ -19,11 +20,11 @@ body {
 header {
     text-align: center;
     padding: 30px 0;
-    background: linear-gradient(135deg, #3498db, #5e5b5e);
-    color: white;
+    background: linear-gradient(135deg, #021124, #06275A);
+    color: #C3E9FF;
     border-radius: 0 0 20px 20px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(2, 17, 36, 0.1);
 }
 
 header h1 {
@@ -44,10 +45,10 @@ header p {
 }
 
 .team-member {
-    background-color: white;
+    background-color: #fff;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(2, 17, 36, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: fadeIn 0.5s ease forwards;
 }
@@ -55,7 +56,7 @@ header p {
 .team-member:hover,
 .team-member:focus {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 16px rgba(2, 17, 36, 0.15);
 }
 
 .member-info {
@@ -65,7 +66,7 @@ header p {
 .member-photo {
     width: 100%;
     height: 180px;
-    background-color: #e0e0e0;
+    background-color: #7EA0C4;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,20 +74,21 @@ header p {
 }
 
 .member-photo img {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 100;
+    margin-top: 10px;
     object-fit: cover;
 }
 
 .placeholder-avatar {
     width: 80px;
     height: 80px;
-    background-color: #3498db;
+    background-color: #06275A;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #C3E9FF;
     font-size: 30px;
     font-weight: bold;
 }
@@ -95,12 +97,12 @@ header p {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 5px;
-    color: #2c3e50;
+    color: #021124;
 }
 
 .member-role {
     font-size: 14px;
-    color: #3498db;
+    color: #5482B4;
     margin-bottom: 10px;
     font-weight: 500;
 }
@@ -108,7 +110,7 @@ header p {
 .member-bio {
     font-size: 14px;
     margin-bottom: 15px;
-    color: #555;
+    color: #06275A;
 }
 
 .contact-buttons {
@@ -122,8 +124,8 @@ header p {
     min-width: 100px;
     padding: 8px 12px;
     text-align: center;
-    background-color: #3498db;
-    color: white;
+    background-color: #5482B4;
+    color: #fff;
     border: none;
     border-radius: 6px;
     font-size: 14px;
@@ -137,15 +139,16 @@ header p {
 }
 
 .contact-btn.email {
-    background-color: #e74c3c;
+    background-color: #06275A;
 }
 
 .contact-btn.linkedin {
-    background-color: #0077B5;
+    background-color: #021124;
 }
 
 .contact-btn.whatsapp {
-    background-color: #25D366;
+    background-color: #7EA0C4;
+    color: #021124;
 }
 
 .contact-btn:hover {
@@ -160,60 +163,60 @@ header p {
     display: block;
     width: 100%;
     padding: 15px 0;
-    background-color: #2ecc71;
-    color: white;
+    background-color: #5482B4;
+    color: #fff;
     text-align: center;
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
     margin: 20px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(2, 17, 36, 0.1);
     transition: background-color 0.2s ease;
 }
 
 .contact-all:hover {
-    background-color: #27ae60;
+    background-color: #06275A;
 }
 
 footer {
     text-align: center;
     padding: 20px 0;
     font-size: 14px;
-    color: #777;
-    border-top: 1px solid #eaeaea;
+    color: #5482B4;
+    border-top: 1px solid #7EA0C4;
     margin-top: 20px;
 }
 
 /* Modo escuro - ativado pelo botão toggle */
 body.dark-mode {
-    background-color: #121212;
-    color: #f1f1f1;
+    background-color: #021124;
+    color: #C3E9FF;
 }
 
 body.dark-mode .team-member {
-    background-color: #1e1e1e;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #06275A;
+    box-shadow: 0 4px 8px rgba(84, 130, 180, 0.3);
 }
 
 body.dark-mode .member-name {
-    color: #f1f1f1;
+    color: #C3E9FF;
 }
 
 body.dark-mode .member-bio {
-    color: #ccc;
+    color: #7EA0C4;
 }
 
 body.dark-mode footer {
-    color: #999;
-    border-color: #333;
+    color: #7EA0C4;
+    border-color: #5482B4;
 }
 
 .theme-toggle {
     position: fixed;
     top: 10px;
     right: 10px;
-    background-color: rgba(0, 0, 0, 0.3);
-    color: white;
+    background-color: #5482B4;
+    color: #fff;
     border: none;
     width: 40px;
     height: 40px;
@@ -227,7 +230,8 @@ body.dark-mode footer {
 }
 
 body.dark-mode .theme-toggle {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #7EA0C4;
+    color: #021124;
 }
 
 /* Modal de QR Code */
@@ -238,24 +242,25 @@ body.dark-mode .theme-toggle {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(2, 17, 36, 0.7);
     z-index: 1000;
     align-items: center;
     justify-content: center;
 }
 
 .modal-content {
-    background-color: white;
+    background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     width: 80%;
     max-width: 300px;
     text-align: center;
+    color: #021124;
 }
 
 body.dark-mode .modal-content {
-    background-color: #1e1e1e;
-    color: white;
+    background-color: #06275A;
+    color: #C3E9FF;
 }
 
 .modal-content h3 {
@@ -265,7 +270,7 @@ body.dark-mode .modal-content {
 .qr-code {
     width: 200px;
     height: 200px;
-    background-color: #f1f1f1;
+    background-color: #C3E9FF;
     margin: 0 auto 15px;
     display: flex;
     align-items: center;
@@ -274,8 +279,8 @@ body.dark-mode .modal-content {
 
 .close-modal {
     padding: 8px 15px;
-    background-color: #3498db;
-    color: white;
+    background-color: #5482B4;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -286,15 +291,15 @@ body.dark-mode .modal-content {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #e74c3c;
-    color: white;
+    background-color: #06275A;
+    color: #C3E9FF;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 10px rgba(2, 17, 36, 0.3);
     border: none;
     cursor: pointer;
     z-index: 99;
@@ -337,367 +342,15 @@ body.dark-mode .modal-content {
     position: fixed;
     bottom: 20px;
     left: 20px;
-    background-color: #3498db;
-    color: white;
+    background-color: #5482B4;
+    color: #fff;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    border: none;
-    cursor: pointer;
-    z-index: 99;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.back-to-top.visible {
-    opacity: 1;
-}
-
-body {
-    background-color: #f8f9fa;
-    color: #333;
-    line-height: 1.6;
-}
-
-.container {
-    max-width: 100%;
-    padding: 20px;
-}
-
-header {
-    text-align: center;
-    padding: 30px 0;
-    background: linear-gradient(135deg, #3498db, #8e44ad);
-    color: white;
-    border-radius: 0 0 20px 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-header h1 {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 16px;
-    opacity: 0.9;
-}
-
-.team-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    margin-bottom: 30px;
-}
-
-.team-member {
-    background-color: white;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    animation: fadeIn 0.5s ease forwards;
-}
-
-.team-member:hover,
-.team-member:focus {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-}
-
-.member-info {
-    padding: 15px;
-}
-
-.member-photo {
-    width: 100%;
-    height: 180px;
-    background-color: #838383;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.member-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.placeholder-avatar {
-    width: 80px;
-    height: 80px;
-    background-color: #3498db;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.member-name {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #2c3e50;
-}
-
-.member-role {
-    font-size: 14px;
-    color: #3498db;
-    margin-bottom: 10px;
-    font-weight: 500;
-}
-
-.member-bio {
-    font-size: 14px;
-    margin-bottom: 15px;
-    color: #555;
-}
-
-.contact-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-}
-
-.contact-btn {
-    flex: 1;
-    min-width: 100px;
-    padding: 8px 12px;
-    text-align: center;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-size: 14px;
-    cursor: pointer;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    transition: background-color 0.2s ease;
-}
-
-.contact-btn.email {
-    background-color: #e74c3c;
-}
-
-.contact-btn.linkedin {
-    background-color: #0077B5;
-}
-
-.contact-btn.whatsapp {
-    background-color: #25D366;
-}
-
-.contact-btn:hover {
-    opacity: 0.9;
-}
-
-.icon {
-    font-size: 16px;
-}
-
-.contact-all {
-    display: block;
-    width: 100%;
-    padding: 15px 0;
-    background-color: #2ecc71;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    margin: 20px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.2s ease;
-}
-
-.contact-all:hover {
-    background-color: #27ae60;
-}
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-    font-size: 14px;
-    color: #777;
-    border-top: 1px solid #eaeaea;
-    margin-top: 20px;
-}
-
-/* Modo escuro - ativado pelo botão toggle */
-body.dark-mode {
-    background-color: #121212;
-    color: #f1f1f1;
-}
-
-body.dark-mode .team-member {
-    background-color: #1e1e1e;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-body.dark-mode .member-name {
-    color: #f1f1f1;
-}
-
-body.dark-mode .member-bio {
-    color: #ccc;
-}
-
-body.dark-mode footer {
-    color: #999;
-    border-color: #333;
-}
-
-.theme-toggle {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    background-color: rgba(0, 0, 0, 0.3);
-    color: white;
-    border: none;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    z-index: 100;
-    font-size: 18px;
-}
-
-body.dark-mode .theme-toggle {
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-/* Modal de QR Code */
-.modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1000;
-    align-items: center;
-    justify-content: center;
-}
-
-.modal-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 300px;
-    text-align: center;
-}
-
-body.dark-mode .modal-content {
-    background-color: #1e1e1e;
-    color: white;
-}
-
-.modal-content h3 {
-    margin-bottom: 15px;
-}
-
-.qr-code {
-    width: 200px;
-    height: 200px;
-    background-color: #f1f1f1;
-    margin: 0 auto 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.close-modal {
-    padding: 8px 15px;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* Botão flutuante para salvar VCard */
-.save-all-contacts {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #e74c3c;
-    color: white;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    border: none;
-    cursor: pointer;
-    z-index: 99;
-    font-size: 24px;
-}
-
-/* Animações */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.team-member:nth-child(1) {
-    animation-delay: 0.1s;
-}
-.team-member:nth-child(2) {
-    animation-delay: 0.2s;
-}
-.team-member:nth-child(3) {
-    animation-delay: 0.3s;
-}
-.team-member:nth-child(4) {
-    animation-delay: 0.4s;
-}
-.team-member:nth-child(5) {
-    animation-delay: 0.5s;
-}
-.team-member:nth-child(6) {
-    animation-delay: 0.6s;
-}
-
-/* Botão voltar ao topo */
-.back-to-top {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    background-color: #3498db;
-    color: white;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(2, 17, 36, 0.2);
     border: none;
     cursor: pointer;
     z-index: 99;
