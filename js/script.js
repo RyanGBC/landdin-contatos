@@ -130,7 +130,7 @@ function createVCard(member) {
     return `BEGIN:VCARD
 VERSION:3.0
 FN:${member.name}
-TITLE:${member.role} at Startup Name
+TITLE:${member.role} at WorkEase
 TEL;TYPE=CELL:${member.phone}
 EMAIL:${member.email}
 URL;TYPE=LinkedIn:https://${member.linkedin}
