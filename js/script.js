@@ -43,9 +43,9 @@ const teamMembers = [
     {
         name: "Ryan",
         role: "Cofundador, Backend & Database",
-        bio: "sou um dos fundadores da startup e sou responsável pela parte do backend e banco de dados.",
+        bio: "Sou um dos fundadores da startup e responsável pelo desenvolvimento do backend e pela gestão do banco de dados, garantindo a segurança e eficiência das operações.",
         email: "ryangabrj@gmail.com",
-        whatsapp: "#",
+        whatsapp: "https://api.whatsapp.com/send?phone=5511942443562",
         linkedin: "https://linkedin.com/in/ryangabrielcosta/",
         github: "https://github.com/RyanGBC",
         photo: "img/ryan.png"
