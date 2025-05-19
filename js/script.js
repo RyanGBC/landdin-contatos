@@ -89,14 +89,12 @@ teamMembers.forEach((member, index) => {
                     <img src="img/whatsapp.png" alt="WhatsApp" style="width:20px;height:20px;vertical-align:middle; margin-right: 33px"> <span style="margin-left:-35px"> WhatsApp</span>
                 </a>
             </div>
-            <div class="contact-buttons" style="margin-top: 8px;">
-                <a href="https://${member.linkedin}" target="_blank" class="contact-btn linkedin">
-                    <img src="img/linkedin.png" alt="LinkedIn" style="width:20px;height:20px;vertical-align:middle;"> LinkedIn
-                </a>
-                <a href="${member.github}" target="_blank" class="contact-btn github">
-                    <img src="img/logotipo-do-github.png" alt="GitHub" style="width:20px;height:20px;vertical-align:middle;"> GitHub
-                </a>
-            </div>
+            <a href="${member.linkedin}" target="_blank" class="contact-btn linkedin">
+                <img src="img/linkedin.png" alt="LinkedIn" style="width:20px;height:20px;vertical-align:middle;"> LinkedIn
+            </a>
+            <a href="${member.github}" target="_blank" class="contact-btn github">
+                <img src="img/logotipo-do-github.png" alt="GitHub" style="width:20px;height:20px;vertical-align:middle;"> GitHub
+            </a>
         </div>
     `;
 
