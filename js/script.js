@@ -47,7 +47,7 @@ const teamMembers = [
         email: "ryangabrj@gmail.com",
         whatsapp: "#",
         linkedin: "linkedin.com/in/ryangabrielcosta/",
-        github: "https:/github.com/RyanGBC",
+        github: "github.com/RyanGBC",
         photo: "img/ryan.png"
     },
     {
