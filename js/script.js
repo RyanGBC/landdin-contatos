@@ -5,9 +5,9 @@ const teamMembers = [
         role: "#",
         bio: "#",
         email: "#",
-        phone: "#",
-        linkedin: "#",
         whatsapp: "#",
+        linkedin: "#",
+        github: "#",
         photo: "#"
     },
     {
@@ -15,9 +15,9 @@ const teamMembers = [
         role: "#",
         bio: "#",
         email: "#",
-        phone: "#",
-        linkedin: "#",
         whatsapp: "#",
+        linkedin: "#",
+        github: "#",
         photo: "#"
     },
     {
@@ -25,9 +25,9 @@ const teamMembers = [
         role: "#",
         bio: "#",
         email: "#",
-        phone: "#",
-        linkedin: "#",
         whatsapp: "#",
+        linkedin: "#",
+        github: "#",
         photo: "#"
     },
     {
@@ -35,9 +35,9 @@ const teamMembers = [
         role: "#",
         bio: "#",
         email: "#",
-        phone: "#",
-        linkedin: "#",
         whatsapp: "#",
+        linkedin: "#",
+        github: "#",
         photo: "#"
     },
     {
@@ -45,19 +45,19 @@ const teamMembers = [
         role: "Cofundador, Backend & Database",
         bio: "sou um dos fundadores da startup e sou responsável pela parte do backend e banco de dados.",
         email: "ryangabrj@gmail.com",
-        phone: "#",
-        linkedin: "https://www.linkedin.com/in/https://www.linkedin.com/in/ryangabrielcosta/-gabriel-8b0a1b1b4/",
         whatsapp: "#",
-        photo: "#"
+        linkedin: "https://www.linkedin.com/in/ryangabrielcosta/-gabriel-8b0a1b1b4/",
+        github: "#",
+        photo: "img/ryan.png"
     },
     {
         name: "Vinicius",
         role: "#",
         bio: "#",
         email: "#",
-        phone: "#",
-        linkedin: "#",
         whatsapp: "#",
+        linkedin: "#",
+        github: "#",
         photo: "#"
     }
 ];
@@ -83,18 +83,18 @@ teamMembers.forEach((member, index) => {
             <p class="member-bio">${member.bio}</p>
             <div class="contact-buttons">
                 <a href="mailto:${member.email}" class="contact-btn email">
-                    ✉️ Email
+                    <img src="img/gmail.png" alt="Email" style="width:20px;height:20px;vertical-align:middle; margin-right: 33px"> <span style="margin-left:-30px"> Email </span>
                 </a>
-                <a href="tel:${member.phone}" class="contact-btn">
-                    📞 Ligar
+                <a href="whatsaap:${member.whatsapp}" class="contact-btn">
+                    <img src="img/whatsapp.png" alt="WhatsApp" style="width:20px;height:20px;vertical-align:middle; margin-right: 33px"> <span style="margin-left:-35px"> WhatsApp</span>
                 </a>
             </div>
             <div class="contact-buttons" style="margin-top: 8px;">
                 <a href="https://${member.linkedin}" target="_blank" class="contact-btn linkedin">
-                    🔗 LinkedIn
+                    <img src="img/linkedin.png" alt="LinkedIn" style="width:20px;height:20px;vertical-align:middle;"> LinkedIn
                 </a>
-                <a href="https://wa.me/${member.whatsapp.replace('+', '')}" target="_blank" class="contact-btn whatsapp">
-                    💬 WhatsApp
+                <a href="${member.github}" target="_blank" class="contact-btn github">
+                    <img src="img/logotipo-do-github.png" alt="GitHub" style="width:20px;height:20px;vertical-align:middle;"> GitHub
                 </a>
             </div>
         </div>
