@@ -46,8 +46,8 @@ const teamMembers = [
         bio: "sou um dos fundadores da startup e sou responsável pela parte do backend e banco de dados.",
         email: "ryangabrj@gmail.com",
         whatsapp: "#",
-        linkedin: "linkedin.com/in/ryangabrielcosta/",
-        github: "github.com/RyanGBC",
+        linkedin: "https://linkedin.com/in/ryangabrielcosta/",
+        github: "https://github.com/RyanGBC",
         photo: "img/ryan.png"
     },
     {
