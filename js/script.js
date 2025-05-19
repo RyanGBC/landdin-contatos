@@ -85,7 +85,7 @@ teamMembers.forEach((member, index) => {
                 <a href="mailto:${member.email}" class="contact-btn email">
                     <img src="img/gmail.png" alt="Email" style="width:20px;height:20px;vertical-align:middle; margin-right: 33px"> <span style="margin-left:-30px"> Email </span>
                 </a>
-                <a href="whatsaap:${member.whatsapp}" class="contact-btn">
+                <a href="${member.whatsapp}" class="contact-btn">
                     <img src="img/whatsapp.png" alt="WhatsApp" style="width:20px;height:20px;vertical-align:middle; margin-right: 33px"> <span style="margin-left:-35px"> WhatsApp</span>
                 </a>
             </div>
