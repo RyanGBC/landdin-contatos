@@ -2,43 +2,43 @@
 const teamMembers = [
     {
         name: "Davidson",
-        role: "#",
-        bio: "#",
-        email: "#",
-        whatsapp: "#",
-        linkedin: "#",
-        github: "#",
-        photo: "#"
+        role: "Confundador, Frontend",
+        bio: "Sou um dos fundadores da startup, responsável pelo desenvolvimento do frontend",
+        email: "davidsonsampaio08@gmail.com",
+        whatsapp: "https://api.whatsapp.com/send?phone=5511971499558",
+        linkedin: "https://www.linkedin.com/in/davidson-sampaio-822861256/",
+        github: "https://github.com/D4vidson",
+        photo: "img/davidson.png"
     },
     {
         name: "Gustavo",
-        role: "#",
-        bio: "#",
-        email: "#",
-        whatsapp: "#",
+        role: "Cofundador, Backend",
+        bio: "Sou um dos fundadores da startup, e responsável pelo desenvolvimento backend",
+        email: "gustavorochanunes2018@gmail.com",
+        whatsapp: "https://api.whatsapp.com/send?phone=556285201064",
         linkedin: "#",
         github: "#",
-        photo: "#"
+        photo: "img/gustavo.png"
     },
     {
         name: "Isaquias",
-        role: "#",
-        bio: "#",
-        email: "#",
-        whatsapp: "#",
-        linkedin: "#",
-        github: "#",
-        photo: "#"
+        role: "Cofundador, Fullstack",
+        bio: "Sou um dos fundadores da startup, responsável pelo desenvolvimento do frontend e backend",
+        email: "isaquiascorreia7@gmail.com",
+        whatsapp: "https://api.whatsapp.com/send?phone=5511963528486",
+        linkedin: "https://www.linkedin.com/in/isaquias-correia-185084218/",
+        github: "https://github.com/isaquias1",
+        photo: "img/isaquias.png"
     },
     {
         name: "Rafaela",
-        role: "#",
-        bio: "#",
-        email: "#",
-        whatsapp: "#",
-        linkedin: "#",
-        github: "#",
-        photo: "#"
+        role: "CEO, Cofundadora, Frontend & Design",
+        bio: "Sou a CEO e cofundadora da startup, responsável pelo desenvolvimento do frontend e design, garantindo uma experiência de usuário intuitiva e atraente.",
+        email: "rafasantosa2004@gmail.com",
+        whatsapp: "https://api.whatsapp.com/send?phone=5511997762053",
+        linkedin: "https://www.linkedin.com/in/rafaela-santana/",
+        github: "https://github.com/rafaelasantana1",
+        photo: "img/rafaela.png"
     },
     {
         name: "Ryan",
@@ -52,13 +52,13 @@ const teamMembers = [
     },
     {
         name: "Vinicius",
-        role: "#",
-        bio: "#",
-        email: "#",
-        whatsapp: "#",
+        role: "Cofundador, Backend",
+        bio: "Sou um dos fundadores da startup e responsável pelo desenvolvimento do backend",
+        email: "sonicdahora@gmail.com",
+        whatsapp: "https://api.whatsapp.com/send?phone=5511978317623",
         linkedin: "#",
-        github: "#",
-        photo: "#"
+        github: "https://github.com/vini-0123",
+        photo: "img/vinicius.png"
     }
 ];
 
