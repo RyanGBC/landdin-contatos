@@ -152,6 +152,11 @@ header p {
     color: #021124;
 }
 
+.contact-btn.whatsapp {
+    background-color: #25D366;
+    color: #fff;
+}
+
 .contact-btn:hover {
     opacity: 0.9;
 }
@@ -188,15 +193,31 @@ footer {
     margin-top: 20px;
 }
 
-/* Modo escuro - ativado pelo botão toggle */
+/* Modo escuro */
 body.dark-mode {
     background-color: #021124;
     color: #C3E9FF;
 }
 
-body.dark-mode .team-member {
-    background-color: #06275A;
+body.dark-mode .team-member,
+body.dark-mode .contact-btn,
+body.dark-mode .contact-btn.email,
+body.dark-mode .contact-btn.linkedin,
+body.dark-mode .contact-btn.github {
+    background-color: #114088;
+    color: #C3E9FF;
     box-shadow: 0 4px 8px rgba(84, 130, 180, 0.3);
+}
+
+body.dark-mode .contact-btn.github,
+body.dark-mode .contact-btn.linkedin {
+    background-color: #7EA0C4;
+    color: #021124;
+}
+
+body.dark-mode .contact-btn,
+body.dark-mode .contact-btn.email {
+    background-color: #7EA0C4;
 }
 
 body.dark-mode .member-name {
@@ -260,7 +281,7 @@ body.dark-mode .theme-toggle {
 }
 
 body.dark-mode .modal-content {
-    background-color: #06275A;
+    background-color: #6f99d8;
     color: #C3E9FF;
 }
 
