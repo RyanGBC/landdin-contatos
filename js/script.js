@@ -90,10 +90,10 @@ teamMembers.forEach((member, index) => {
                 </a>
             </div>
             <div class="contact-buttons" style="margin-top: 8px;">
-                <a href="${member.linkedin}" target="_blank" class="contact-btn linkedin">
+                <a href="${member.linkedin}" target="_blank" class="contact-btn linkedin social-link">
                     <img src="img/linkedin.png" alt="LinkedIn" style="width:20px;height:20px;vertical-align:middle;"> LinkedIn
                 </a>
-                <a href="${member.github}" target="_blank" class="contact-btn github">
+                <a href="${member.github}" target="_blank" class="contact-btn github social-link">
                     <img src="img/logotipo-do-github.png" alt="GitHub" style="width:20px;height:20px;vertical-align:middle;"> GitHub
                 </a>
             </div>
@@ -101,6 +101,17 @@ teamMembers.forEach((member, index) => {
     `;
 
     teamGrid.appendChild(memberCard);
+});
+
+// Adiciona alerta caso o link da rede social não funcione
+document.querySelectorAll('.social-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+        if (!this.href || this.getAttribute('href') === '#') {
+            e.preventDefault();
+            const memberName = this.closest('.team-member').querySelector('.member-name').textContent;
+            alert(`Link para rede social não disponível para ${memberName}.`);
+        }
+    });
 });
 
 // Toggle do modo escuro
